@@ -27,6 +27,6 @@ const database = {actors:[
 
 }
 
-export const getShows = () => {
+export const getActors = () => {
   return database.actors.map(actors => ({...actors}))
 }
